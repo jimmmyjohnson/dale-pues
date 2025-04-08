@@ -1,0 +1,127 @@
+/* Base styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex; /* Enable flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 100vh; /* Full viewport height */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: bold;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #007BFF; /* Accent color */
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    text-align: center; /* Center text inside the container */
+    padding: 20px;
+    background-color: #fff; /* White background for the container */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 10px; /* Rounded corners */
+    max-width: 600px; /* Limit the width of the container */
+    width: 90%; /* Responsive width */
+}
+
+/* Cart */
+.cart {
+    margin-top: 20px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-item p {
+    margin: 0;
+}
+
+.cart-total {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Buttons */
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.remove-btn {
+    background-color: #FF4D4D;
+}
+
+.remove-btn:hover {
+    background-color: #CC0000;
+}
+
+.checkout-btn {
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* Links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Utility classes */
+.text-center {
+    text-align: center;
+}
+
+.mt-1 {
+    margin-top: 10px;
+}
+
+.mb-1 {
+    margin-bottom: 10px;
+}
+
+.pt-1 {
+    padding-top: 10px;
+}
+
+.pb-1 {
+    padding-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    font-size: 0.9rem;
+    color: #666;
+}
